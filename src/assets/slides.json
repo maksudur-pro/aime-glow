@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "- Limited Edition -",
+    "heading": "Redefine your beauty, naturally",
+    "description": "Discover our exclusive collection crafted with nature’s purest ingredients — because your skin deserves the best.",
+    "btnText": "Explore Now",
+    "className": "banner-wrap1"
+  },
+  {
+    "id": 2,
+    "title": "- Fresh Arrival -",
+    "heading": "Glow with confidence every day",
+    "description": "Our new skincare line hydrates, nourishes, and brightens — giving your skin that radiant, all-day freshness.",
+    "btnText": "Shop Now",
+    "className": "banner-wrap2"
+  },
+  {
+    "id": 3,
+    "title": "- Trending Now -",
+    "heading": "Elegance starts with you",
+    "description": "Embrace timeless beauty with our luxurious essentials — designed to enhance your natural charm effortlessly.",
+    "btnText": "Buy Now",
+    "className": "banner-wrap3"
+  }
+]
