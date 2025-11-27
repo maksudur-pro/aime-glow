@@ -3,7 +3,7 @@ import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 
-import slides from "../../../assets/slides.json";
+import slides from "../../../assets/data/slides.json";
 
 const Banner = () => {
   return (

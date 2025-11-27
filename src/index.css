@@ -58,11 +58,11 @@ html {
 /* Banner background classes (preload images) */
 
 .banner-bg-1 {
-  background-image: url("/hero-bg-1.webp");
+  background-image: url("./assets/images/hero-bg-1.webp");
 }
 .banner-bg-2 {
-  background-image: url("/hero-bg-2.webp");
+  background-image: url("./assets/images/hero-bg-2.webp");
 }
 .banner-bg-3 {
-  background-image: url("/hero-bg-3.webp");
+  background-image: url("./assets/images/hero-bg-3.webp");
 }

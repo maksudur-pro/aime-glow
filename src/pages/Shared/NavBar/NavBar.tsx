@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "/src/assets/logo-black.png";
+import logo from "../../../assets/images/logo-black.png";
 
 const navOptions = [
   { name: "Home", to: "/" },

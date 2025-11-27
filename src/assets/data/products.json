@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Glow Serum",
+    "img": "src/assets/images/product-1-1.webp",
+    "secondImg": "src/assets/images/product-1-2.webp",
+    "price": 29.99,
+    "tag": "New",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Hydrating Cream",
+    "img": "src/assets/images/product-2-1.webp",
+    "secondImg": "src/assets/images/product-2-2.webp",
+    "price": 19.99,
+    "tag": "Fresh Arrival",
+    "rating": 3
+  },
+  {
+    "id": 3,
+    "name": "Radiant Face Mask",
+    "img": "src/assets/images/product-3-1.webp",
+    "secondImg": "src/assets/images/product-3-2.webp",
+    "price": 39.99,
+    "tag": "Trending Now",
+    "rating": 2.5
+  },
+  {
+    "id": 4,
+    "name": "Vitamin C Cleanser",
+    "img": "src/assets/images/product-4-1.webp",
+    "secondImg": "src/assets/images/product-4-2.webp",
+    "price": 24.99,
+    "tag": "Best Seller",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Glow Serum",
+    "img": "src/assets/images/product-1-1.webp",
+    "secondImg": "src/assets/images/product-1-2.webp",
+    "price": 29.99,
+    "tag": "Limited Edition",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "name": "Hydrating Cream",
+    "img": "src/assets/images/product-2-1.webp",
+    "secondImg": "src/assets/images/product-2-2.webp",
+    "price": 19.99,
+    "tag": "Fresh Arrival",
+    "rating": 3
+  },
+  {
+    "id": 7,
+    "name": "Radiant Face Mask",
+    "img": "src/assets/images/product-3-1.webp",
+    "secondImg": "src/assets/images/product-3-2.webp",
+    "price": 39.99,
+    "tag": "Trending Now",
+    "rating": 2
+  },
+  {
+    "id": 8,
+    "name": "Vitamin C Cleanser",
+    "img": "src/assets/images/product-4-1.webp",
+    "secondImg": "src/assets/images/product-4-2.webp",
+    "price": 24.99,
+    "tag": "Best Seller",
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "name": "Glow Serum",
+    "img": "src/assets/images/product-1-1.webp",
+    "secondImg": "src/assets/images/product-1-2.webp",
+    "price": 29.99,
+    "tag": "Limited Edition",
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "name": "Hydrating Cream",
+    "img": "src/assets/images/product-2-1.webp",
+    "secondImg": "src/assets/images/product-2-2.webp",
+    "price": 19.99,
+    "tag": "Fresh Arrival",
+    "rating": 5
+  },
+  {
+    "id": 11,
+    "name": "Radiant Face Mask",
+    "img": "src/assets/images/product-3-1.webp",
+    "secondImg": "src/assets/images/product-3-2.webp",
+    "price": 39.99,
+    "tag": "Trending Now",
+    "rating": 5
+  },
+  {
+    "id": 12,
+    "name": "Vitamin C Cleanser",
+    "img": "src/assets/images/product-4-1.webp",
+    "secondImg": "src/assets/images/product-4-2.webp",
+    "price": 24.99,
+    "tag": "Best Seller",
+    "rating": 5
+  }
+]
