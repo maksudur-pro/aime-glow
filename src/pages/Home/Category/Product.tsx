@@ -2,6 +2,7 @@ import products from "../../../assets/data/products.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const Product = () => {
   return (
@@ -32,7 +33,7 @@ const Product = () => {
           className="mt-4 relative swiper ">
           {products.map((product) => (
             <SwiperSlide key={product.id}>
-              <div className="relative">
+              <Link to="/product-details" className="relative">
                 <div className="w-full relative overflow-hidden group">
                   <img
                     src={product.img}
@@ -79,25 +80,14 @@ const Product = () => {
 
                 <div className="pt-3.5">
                   <h1 className="uppercase">{product.name}</h1>
-                  <div className="rating rating-xs">
-                    {Array.from({ length: 5 }, (_, i) => (
-                      <input
-                        key={i}
-                        type="radio"
-                        name={`rating-${product.id}`}
-                        className={`mask mask-star-2 ${
-                          i < product.rating ? "bg-orange-400" : "bg-gray-300"
-                        }`}
-                        aria-label={`${i + 1} star`}
-                        checked={i < product.rating}
-                        readOnly
-                      />
-                    ))}
+                  <div className="text-yellow-500 font-bold">
+                    {"★".repeat(product.rating)}
+                    {"☆".repeat(5 - product.rating)}
                   </div>
 
                   <h2 className="text-[#899f87]">${product.price}</h2>
                 </div>
-              </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>
