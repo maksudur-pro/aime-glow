@@ -33,16 +33,23 @@ const Product = () => {
           {products.map((product) => (
             <SwiperSlide key={product.id}>
               <div className="relative">
-                <div className="w-full relative overflow-hidden">
+                <div className="w-full relative overflow-hidden group">
                   <img
                     src={product.img}
                     alt={product.name}
-                    className="w-full h-full"
+                    className="w-full h-full transition-opacity duration-300"
+                    loading="lazy"
+                  />
+
+                  <img
+                    src={product.secondImg}
+                    alt={product.name}
+                    className="w-full h-full absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                     loading="lazy"
                   />
                   <button
                     aria-label="Favorites"
-                    className="absolute top-2 right-2 cursor-pointer">
+                    className="absolute top-2 right-2 cursor-pointer  translate-x-6 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 ease-out">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -60,15 +67,16 @@ const Product = () => {
                       />
                     </svg>
                   </button>
-                  <div className="min-w-12 absolute top-2 left-1.5 bg-[#899f87] text-white py-1.5 px-2 uppercase text-center text-[10px]">
+                  <div className="min-w-12 absolute top-2 left-1.5 bg-black text-white py-1.5 px-2 uppercase text-center text-[10px] ">
                     {product?.tag}
                   </div>
-                  <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
-                    <button className="text-[14px] md:text-[16px] lg:text-[16px] h-10 md:h-12 lg:h-12 w-[200px] md:w-[260px] lg:w-[260px] bg-white text-[#808080] font-semibold uppercase hover:bg-[#899f87] hover:text-white cursor-pointer">
+                  <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2  translate-y-6 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-out">
+                    <button className="text-[14px] md:text-[16px] lg:text-[16px] h-10 md:h-12 lg:h-12 w-[200px] md:w-[260px] lg:w-[260px] bg-white text-[#808080] font-semibold uppercase hover:bg-black hover:text-white cursor-pointer  transition-all duration-400 ease-in-out">
                       Add to cart
                     </button>
                   </div>
                 </div>
+
                 <div className="pt-3.5">
                   <h1 className="uppercase">{product.name}</h1>
                   <div className="rating rating-xs">
@@ -99,4 +107,4 @@ const Product = () => {
 };
 
 export default Product;
-//59.43
+//1.1.41
